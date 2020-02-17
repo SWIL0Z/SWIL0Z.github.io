@@ -1,4 +1,4 @@
-/* INITIALISATION DES POLICES PERSONNALISEES */
+/* IMPORTATION DES POLICES PERSONNALISEES */
 @font-face {
     font-family: nasa;
     src: url("nasalization-rg.ttf");
@@ -127,9 +127,9 @@ article p{
     text-align: justify;
 }
 
-#languages{
-    height: 100%; width: 30%;
-    margin: 0 0 0 30%;
+#skills{
+    height: 100%;
+    margin: 0 0 0 10%;
     padding: 0;
     display: none;
 
@@ -139,8 +139,16 @@ article p{
     border-collapse: separate;
 }
 
-#languages img{
-    height: 45px; width: auto;
+#skills .txt{
+    padding: 0px 5px 0px 15px;
+}
+
+#skills .logo{
+    padding: 0px 15px 0px 5px;
+}
+
+#skills img{
+    height: 50px; width: auto;
 }
 
 #degrees{

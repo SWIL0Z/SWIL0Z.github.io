@@ -2,5 +2,5 @@
 
 GitHub Page personnel - ePortfolio
 
-RESTE A FAIRE :
+TO DO :
 - Reponsive design
