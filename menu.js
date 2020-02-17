@@ -30,3 +30,15 @@ contact.addEventListener('click', function(){
     document.getElementById('skills').style.display = "none";
     document.getElementById('sites').style.display = "flex";
 });
+
+if ((screen.width < 500 && screen.height < 1000) || (screen.width < 1000 && screen.height < 500)) {
+    document.getElementById("usual-page").style.display = "none";
+    const div = document.getElementById("mobile-alert");
+    div.style.display = "block";
+    if (screen.width < screen.height){
+        div.style.fontSize = "350%";
+    }
+    else{
+        div.style.fontSize = "200%";
+    }
+}
