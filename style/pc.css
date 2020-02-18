@@ -47,9 +47,6 @@ a{
     text-align: center;
 }
 
-.italic{
-    font-style: italic;
-}
 /* -------------------- */
 
 /* MISE EN PAGE DU CONTENU */
@@ -128,7 +125,7 @@ article p{
     height: 100%;
     position: relative;
     top: 0; left: 0;
-    margin: 4% 0;
+    margin: 0;
     padding: 0;
 
     display: block; /* to force the display of this part at first page opening */
@@ -159,7 +156,8 @@ article p{
 }
 
 #skills img{
-    height: 50px; width: auto;
+    max-height: 40px;
+    max-width: 100px;
 }
 
 #degrees{
